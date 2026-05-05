@@ -67,7 +67,7 @@ export default function ProductSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 items-start">
           {/* Gallery */}
           <div className="md:sticky md:top-[90px]">
-            {/* TODO: Replace main image src with new gold bottle Luxe Serum Fusion Veil Duo image */}
+            
             <Image
               src={mainImg}
               alt="Skinthesis Luxe Serum Fusion Veil Duo"
@@ -78,7 +78,7 @@ export default function ProductSection() {
             />
             <div className="flex gap-3">
               {THUMBS.map((t, idx) => (
-                // TODO: Replace each thumb src with new product images
+                
                 <Image
                   key={idx}
                   src={t.src}
